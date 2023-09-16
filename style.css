@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(230, 227, 227);
+}
+
+main {
+  border-radius: 20px;
+  width: 45rem;
+  background-color: white;
+  margin-left: 22rem;
+  margin-top: 7rem;
+}
+
+.flex {
+  display: flex;
+}
+ .photo1 {
+  width: 20rem;
+  height: 25rem;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.photo2 {
+  display:none;
+}
+
+.text {
+  padding-left: 2rem;
+}
+
+.text h2,
+h3,
+p {
+  font-weight: 4;
+}
+
+.text h2 {
+  color: rgb(116, 114, 114);
+  font-size: 15px;
+  letter-spacing: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text h1 {
+  padding-top: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.text h3 {
+  padding-top: 1rem;
+  color: rgb(116, 114, 114);
+  font-size: 20px;
+}
+
+.text h4 {
+  padding-top: 1rem;
+  font-size: 2rem;
+  color: rgb(78, 163, 78);
+}
+
+.text h5 {
+  font-size: 15px;
+  color: rgb(116, 114, 114);
+  text-decoration: line-through;
+}
+
+#btn {
+  width: 15rem;
+  height: 2rem;
+  background-color: rgb(78, 163, 78);
+  border-color: rgb(78, 163, 78);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+ main{
+  width: 25rem;
+  height: 45rem;
+  margin-left: 0;
+  margin-top: 0;
+ }
+  .flex{
+    display: block;
+  }
+.photo1{
+  display: none;
+}
+  .image .photo2{
+    display: block;
+    width: 25rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 25px;
+  }
+}
+
